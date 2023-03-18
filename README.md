@@ -3,7 +3,7 @@
 
 ## Deployed URL
 
-URL: 
+URL: https://austingrech.github.io/Random-Password-Generator/
 
 ## Mock Up
 
