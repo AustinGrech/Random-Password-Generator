@@ -30,9 +30,9 @@ function generatePassword() {
 
   let length = prompt("how many characters would you like in your password? (8 - 128 characters)");
 
-  if (length < 8 || length > 128) {
+  if (length < 8 || length > 128 || isNaN(length)) {
     alert("Must be between 8 and 128 characters!");
-    return;
+    return "";
   } 
 
 
